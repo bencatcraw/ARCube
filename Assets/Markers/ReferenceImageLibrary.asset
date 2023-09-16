@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5604352498857215927
+  m_GuidHigh: 3377454118934307476
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5233093792651440665
+      m_GuidHigh: 17687361353598056842
+    m_SerializedTextureGuid:
+      m_GuidLow: 16588021330540634110
+      m_GuidHigh: 12127599886120759323
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: Circle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5303274043727830039
+      m_GuidHigh: 10307828699762850710
+    m_SerializedTextureGuid:
+      m_GuidLow: 17767909298234727285
+      m_GuidHigh: 6839399102984020057
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: Cube
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5434622355539047855
+      m_GuidHigh: 12978930817927456165
+    m_SerializedTextureGuid:
+      m_GuidLow: 8323956165372198578
+      m_GuidHigh: 3806824610753105721
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: GreaterLess
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4737614310356612149
+      m_GuidHigh: 8006927533455388818
+    m_SerializedTextureGuid:
+      m_GuidLow: 8184427508119917680
+      m_GuidHigh: 12093115727690264426
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: Merg
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4949544402418092142
+      m_GuidHigh: 13020906878925837745
+    m_SerializedTextureGuid:
+      m_GuidLow: 3257234453051724619
+      m_GuidHigh: 9680733536875035993
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: Octagon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5510906507488642896
+      m_GuidHigh: 12378282845489048739
+    m_SerializedTextureGuid:
+      m_GuidLow: 1559532929889601400
+      m_GuidHigh: 2382108561554064714
+    m_Size: {x: 0.05, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: Triangle
+    m_Texture: {fileID: 0}
