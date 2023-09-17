@@ -25,7 +25,7 @@ public class MultipleImagesTrackingManager : MonoBehaviour
 
         foreach(GameObject prefab in prefabsToSpawn)
         {
-            GameObject newARObject = Instantiate(prefab, Vector3.zero, prefab.transform.rotation);
+            GameObject newARObject = Instantiate(prefab, Vector3.zero, Quaternion.identity);
             newARObject.name = prefab.name;
             newARObject.gameObject.SetActive(false);
             _arObjects.Add(newARObject.name, newARObject);
@@ -66,6 +66,7 @@ public class MultipleImagesTrackingManager : MonoBehaviour
         {
             _arObjects[trackedImage.referenceImage.name].gameObject.SetActive(true);
             _arObjects[trackedImage.referenceImage.name].transform.position = trackedImage.transform.position;
+            _arObjects[trackedImage.referenceImage.name].transform.rotation = trackedImage.transform.rotation;
         }
     }
 }
