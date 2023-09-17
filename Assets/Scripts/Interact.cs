@@ -45,7 +45,7 @@ public class Interact : MonoBehaviour
         if (isFingerDown)
         {
             float rotationAmt = rotationSpeed * Time.deltaTime;
-            transform.Rotate(Vector3.right * rotationAmt);
+            dLight.Rotate(Vector3.right * rotationAmt);
         }
     }
 }
