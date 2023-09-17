@@ -9,19 +9,19 @@ public class MultipleImagesTrackingManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] prefabsToSpawn;
 
-    private ARTrackedImageManager _aRTrackedImageManager;
+    private ARTrackedImageManager _arTrackedImageManager;
 
     private Dictionary<string, GameObject> _arObjects;
 
     private void Awake()
     {
-        _aRTrackedImageManager = GetComponent<ARTrackedImageManager>();
+        _arTrackedImageManager = GetComponent<ARTrackedImageManager>();
         _arObjects = new Dictionary<string, GameObject>();
     }
 
     private void Start()
     {
-        _aRTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        _arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
 
         foreach(GameObject prefab in prefabsToSpawn)
         {
@@ -34,7 +34,7 @@ public class MultipleImagesTrackingManager : MonoBehaviour
 
     private void OnDestroy()
     {
-        _aRTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
+        _arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
     }
 
     private void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
@@ -58,7 +58,7 @@ public class MultipleImagesTrackingManager : MonoBehaviour
         if (trackedImage.trackingState is TrackingState.Limited or TrackingState.None)
         {
             _arObjects[trackedImage.referenceImage.name].gameObject.SetActive(false);
-                return;
+            return;
             
         }
 
