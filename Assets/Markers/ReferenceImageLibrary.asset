@@ -57,7 +57,7 @@ MonoBehaviour:
       m_GuidHigh: 12093115727690264426
     m_Size: {x: 0.1, y: 0.1}
     m_SpecifySize: 1
-    m_Name: Merg
+    m_Name: Merge
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
       m_GuidLow: 4949544402418092142
