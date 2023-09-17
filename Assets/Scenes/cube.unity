@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dLight: {fileID: 410087041}
-  rotationSpeed: 20
+  rotationSpeed: 45
 --- !u!1 &144720989
 GameObject:
   m_ObjectHideFlags: 0
